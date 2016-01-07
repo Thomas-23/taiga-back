@@ -1,0 +1,1991 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-01-07 15:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: .\taiga\auth\api.py:99
+msgid "Public register is disabled."
+msgstr "注册功能暂不开放"
+
+#: .\taiga\auth\api.py:132
+msgid "invalid register type"
+msgstr "无效的注册类型"
+
+#: .\taiga\auth\api.py:145
+msgid "invalid login type"
+msgstr "无效的登录类型"
+
+#: .\taiga\auth\serializers.py:34 .\taiga\users\serializers.py:61
+msgid "invalid username"
+msgstr "无效的用户名"
+
+#: .\taiga\auth\serializers.py:39 .\taiga\users\serializers.py:67
+msgid ""
+"Required. 255 characters or fewer. Letters, numbers and /./-/_ characters'"
+msgstr "必填。最多255个字符（可包括数字，字母以及字符 ‘.’ 、‘-’ 、‘_’）"
+
+#: .\taiga\auth\services.py:73
+msgid "Username is already in use."
+msgstr "用户名已被注册"
+
+#: .\taiga\auth\services.py:76
+msgid "Email is already in use."
+msgstr "电子邮件已被使用"
+
+#: .\taiga\auth\services.py:92
+msgid "Token not matches any valid invitation."
+msgstr "口令没有符合任何有效邀请"
+
+#: .\taiga\auth\services.py:120
+msgid "User is already registered."
+msgstr "用户已被注册"
+
+#: .\taiga\auth\services.py:144
+msgid "Membership with user is already exists."
+msgstr "用户的成员资格已存在"
+
+#: .\taiga\auth\services.py:170
+msgid "Error on creating new user."
+msgstr "无法创建新用户"
+
+#: .\taiga\auth\tokens.py:47 .\taiga\auth\tokens.py:54
+#: .\taiga\external_apps\services.py:34
+msgid "Invalid token"
+msgstr "无效口令"
+
+#: .\taiga\base\api\fields.py:268
+msgid "This field is required."
+msgstr "此字段必要的"
+
+#: .\taiga\base\api\fields.py:269 .\taiga\base\api\relations.py:311
+msgid "Invalid value."
+msgstr "无效的数值"
+
+#: .\taiga\base\api\fields.py:453
+#, python-format
+msgid "'%s' value must be either True or False."
+msgstr "'%s' 值必须为【是】或【否】"
+
+#: .\taiga\base\api\fields.py:517
+msgid ""
+"Enter a valid 'slug' consisting of letters, numbers, underscores or hyphens."
+msgstr "输入一个有效的 'slug' , 它包括字母，数字，下划线与连字符"
+
+#: .\taiga\base\api\fields.py:532
+#, python-format
+msgid "Select a valid choice. %(value)s is not one of the available choices."
+msgstr "选择一个正确的选项。%(value)s 不是可选择项"
+
+#: .\taiga\base\api\fields.py:595
+msgid "Enter a valid email address."
+msgstr "输入一个有效的电子邮件地址"
+
+#: .\taiga\base\api\fields.py:637
+#, python-format
+msgid "Date has wrong format. Use one of these formats instead: %s"
+msgstr "日期格式错误。请使用: %s 这其中的一个代替"
+
+#: .\taiga\base\api\fields.py:701
+#, python-format
+msgid "Datetime has wrong format. Use one of these formats instead: %s"
+msgstr "日期时间格式错误。请使用: %s 这其中的一个代替"
+
+#: .\taiga\base\api\fields.py:771
+#, python-format
+msgid "Time has wrong format. Use one of these formats instead: %s"
+msgstr "时间格式错误。请使用: %s 这其中的一个代替"
+
+#: .\taiga\base\api\fields.py:828
+msgid "Enter a whole number."
+msgstr "输入一个整数"
+
+#: .\taiga\base\api\fields.py:829 .\taiga\base\api\fields.py:882
+#, python-format
+msgid "Ensure this value is less than or equal to %(limit_value)s."
+msgstr "确认此数值小于等于%(limit_value)s。"
+
+#: .\taiga\base\api\fields.py:830 .\taiga\base\api\fields.py:883
+#, python-format
+msgid "Ensure this value is greater than or equal to %(limit_value)s."
+msgstr "确认此数值大于等于%(limit_value)s。"
+
+#: .\taiga\base\api\fields.py:860
+#, python-format
+msgid "\"%s\" value must be a float."
+msgstr "\"%s\" 数值必需为一个浮点数"
+
+#: .\taiga\base\api\fields.py:881
+msgid "Enter a number."
+msgstr "输入一组号码"
+
+#: .\taiga\base\api\fields.py:884
+#, python-format
+msgid "Ensure that there are no more than %s digits in total."
+msgstr "确认总位数没有超过%s位"
+
+#: .\taiga\base\api\fields.py:885
+#, python-format
+msgid "Ensure that there are no more than %s decimal places."
+msgstr "确认没有超过%s个十进制位数"
+
+#: .\taiga\base\api\fields.py:886
+#, python-format
+msgid "Ensure that there are no more than %s digits before the decimal point."
+msgstr "确认小数点前面没有超过%s位"
+
+#: .\taiga\base\api\fields.py:953
+msgid "No file was submitted. Check the encoding type on the form."
+msgstr "无文件提交。请检查表单中的编码格式"
+
+#: .\taiga\base\api\fields.py:954
+msgid "No file was submitted."
+msgstr "无文件提交"
+
+#: .\taiga\base\api\fields.py:955
+msgid "The submitted file is empty."
+msgstr "提交的空文件"
+
+#: .\taiga\base\api\fields.py:956
+#, python-format
+msgid ""
+"Ensure this filename has at most %(max)d characters (it has %(length)d)."
+msgstr "确认这个文件名称最多有%(max)d个字符（它有%(length)d)"
+
+#: .\taiga\base\api\fields.py:957
+msgid "Please either submit a file or check the clear checkbox, not both."
+msgstr "请提交一个文件或者勾选清空多选框，二选一"
+
+#: .\taiga\base\api\fields.py:997
+msgid ""
+"Upload a valid image. The file you uploaded was either not an image or a "
+"corrupted image."
+msgstr "上传一个有效的图片，您上传的文件非文档或损坏图片"
+
+#: .\taiga\base\api\pagination.py:212
+msgid "Page is not 'last', nor can it be converted to an int."
+msgstr "页面不是最后，或者无法将它转成整数"
+
+#: .\taiga\base\api\pagination.py:216
+#, python-format
+msgid "Invalid page (%(page_number)s): %(message)s"
+msgstr "无效页面 (%(page_number)s): %(message)s"
+
+#: .\taiga\base\api\permissions.py:63
+msgid "Invalid permission definition."
+msgstr "无效的权限定义"
+
+#: .\taiga\base\api\relations.py:221
+#, python-format
+msgid "Invalid pk '%s' - object does not exist."
+msgstr "无效的pk '%s' - 对象不存在"
+
+#: .\taiga\base\api\relations.py:222
+#, python-format
+msgid "Incorrect type. Expected pk value, received %s."
+msgstr "非正常类型。预期为pk值，收到%s"
+
+#: .\taiga\base\api\relations.py:310
+#, python-format
+msgid "Object with %s=%s does not exist."
+msgstr "包含%s=%s的对象不存在"
+
+#: .\taiga\base\api\relations.py:346
+msgid "Invalid hyperlink - No URL match"
+msgstr "无效的超链接 - 没有 URL 匹配"
+
+#: .\taiga\base\api\relations.py:347
+msgid "Invalid hyperlink - Incorrect URL match"
+msgstr "无效的链接 - 非正确的 URL 匹配"
+
+#: .\taiga\base\api\relations.py:348
+msgid "Invalid hyperlink due to configuration error"
+msgstr "由于配置错误造成的无效的超链接"
+
+#: .\taiga\base\api\relations.py:349
+msgid "Invalid hyperlink - object does not exist."
+msgstr "无效的超链接 - 对象不存在"
+
+#: .\taiga\base\api\relations.py:350
+#, python-format
+msgid "Incorrect type.  Expected url string, received %s."
+msgstr "非正确类型。 预期为url字符串， 收到的是%s"
+
+#: .\taiga\base\api\serializers.py:296
+msgid "Invalid data"
+msgstr "无效的数据"
+
+#: .\taiga\base\api\serializers.py:388
+msgid "No input provided"
+msgstr "没有提供输入"
+
+#: .\taiga\base\api\serializers.py:548
+msgid "Cannot create a new item, only existing items may be updated."
+msgstr "无法创建新的项目，只能更新现有的项目"
+
+#: .\taiga\base\api\serializers.py:559
+msgid "Expected a list of items."
+msgstr "预期为项目清单"
+
+#: .\taiga\base\api\views.py:100
+msgid "Not found"
+msgstr "找不到"
+
+#: .\taiga\base\api\views.py:103
+msgid "Permission denied"
+msgstr "权限被拒绝"
+
+#: .\taiga\base\api\views.py:451
+msgid "Server application error"
+msgstr "服务器应用出错"
+
+#: .\taiga\base\connectors\exceptions.py:24
+msgid "Connection error."
+msgstr "连接出错"
+
+#: .\taiga\base\exceptions.py:53
+msgid "Malformed request."
+msgstr "错误的请求"
+
+#: .\taiga\base\exceptions.py:58
+msgid "Incorrect authentication credentials."
+msgstr "不正确的授权认证"
+
+#: .\taiga\base\exceptions.py:63
+msgid "Authentication credentials were not provided."
+msgstr "未提供授权认证"
+
+#: .\taiga\base\exceptions.py:68
+msgid "You do not have permission to perform this action."
+msgstr "你没有权限执行此动作"
+
+#: .\taiga\base\exceptions.py:73
+#, python-format
+msgid "Method '%s' not allowed."
+msgstr "方式 '%s' 不允许"
+
+#: .\taiga\base\exceptions.py:81
+msgid "Could not satisfy the request's Accept header"
+msgstr "无法满足请求的接收头部"
+
+#: .\taiga\base\exceptions.py:90
+#, python-format
+msgid "Unsupported media type '%s' in request."
+msgstr "请求中不支持 media 类型 '%s'"
+
+#: .\taiga\base\exceptions.py:98
+msgid "Request was throttled."
+msgstr "请求被限制"
+
+#: .\taiga\base\exceptions.py:99
+#, python-format
+msgid "Expected available in %d second%s."
+msgstr "预期在%d 秒%s内可使用"
+
+#: .\taiga\base\exceptions.py:113
+msgid "Unexpected error"
+msgstr "非预期错误"
+
+#: .\taiga\base\exceptions.py:125
+msgid "Not found."
+msgstr "未找到"
+
+#: .\taiga\base\exceptions.py:130
+msgid "Method not supported for this endpoint."
+msgstr "终端不支持此方法"
+
+#: .\taiga\base\exceptions.py:138 .\taiga\base\exceptions.py:146
+msgid "Wrong arguments."
+msgstr "错误的参数"
+
+#: .\taiga\base\exceptions.py:150
+msgid "Data validation error"
+msgstr "数据验证错误"
+
+#: .\taiga\base\exceptions.py:162
+msgid "Integrity Error for wrong or invalid arguments"
+msgstr "错误或无效的参数引起的一致性错误"
+
+#: .\taiga\base\exceptions.py:169
+msgid "Precondition error"
+msgstr "前提条件出错"
+
+#: .\taiga\base\filters.py:78
+msgid "Error in filter params types."
+msgstr "过滤参数类型出错"
+
+#: .\taiga\base\filters.py:132 .\taiga\base\filters.py:221
+#: .\taiga\base\filters.py:270
+msgid "'project' must be an integer value."
+msgstr "项目必需为一个整数值"
+
+#: .\taiga\base\tags.py:25
+msgid "tags"
+msgstr "标签"
+
+#: .\taiga\export_import\api.py:104
+msgid "We needed at least one role"
+msgstr "我们需要至少一个角色"
+
+#: .\taiga\export_import\api.py:198
+msgid "Needed dump file"
+msgstr "需要备份文件"
+
+#: .\taiga\export_import\api.py:205
+msgid "Invalid dump format"
+msgstr "无效的备份格式"
+
+#: .\taiga\export_import\dump_service.py:96
+msgid "error importing project data"
+msgstr "导入项目数据出错"
+
+#: .\taiga\export_import\dump_service.py:109
+msgid "error importing lists of project attributes"
+msgstr "导入项目属性清单出错"
+
+#: .\taiga\export_import\dump_service.py:114
+msgid "error importing default project attributes values"
+msgstr "导入默认项目属性值出错"
+
+#: .\taiga\export_import\dump_service.py:124
+msgid "error importing custom attributes"
+msgstr "导入自定义属性出错"
+
+#: .\taiga\export_import\dump_service.py:129
+msgid "error importing roles"
+msgstr "导入角色出错"
+
+#: .\taiga\export_import\dump_service.py:144
+msgid "error importing memberships"
+msgstr "导入成员关系出错"
+
+#: .\taiga\export_import\dump_service.py:149
+msgid "error importing sprints"
+msgstr "导入sprints出错"
+
+#: .\taiga\export_import\dump_service.py:154
+msgid "error importing wiki pages"
+msgstr "导入wiki页面出错"
+
+#: .\taiga\export_import\dump_service.py:159
+msgid "error importing wiki links"
+msgstr "导入wiki链接出错"
+
+#: .\taiga\export_import\dump_service.py:164
+msgid "error importing issues"
+msgstr "导入问题出错"
+
+#: .\taiga\export_import\dump_service.py:169
+msgid "error importing user stories"
+msgstr "导入用户故事出错"
+
+#: .\taiga\export_import\dump_service.py:174
+msgid "error importing tasks"
+msgstr "导入任务出错"
+
+#: .\taiga\export_import\dump_service.py:179
+msgid "error importing tags"
+msgstr "导入标签出错"
+
+#: .\taiga\export_import\dump_service.py:183
+msgid "error importing timelines"
+msgstr "导入时间线出错"
+
+#: .\taiga\export_import\serializers.py:177
+msgid "{}=\"{}\" not found in this project"
+msgstr "在这个项目中没有找到{}=\"{}\""
+
+#: .\taiga\export_import\serializers.py:442
+#: .\taiga\projects\custom_attributes\serializers.py:103
+msgid "Invalid content. It must be {\"key\": \"value\",...}"
+msgstr "无效的内容。它必需是{\"key\": \"value\",...}"
+
+#: .\taiga\export_import\serializers.py:457
+#: .\taiga\projects\custom_attributes\serializers.py:118
+msgid "It contain invalid custom fields."
+msgstr "包含无效的自定义字段"
+
+#: .\taiga\export_import\serializers.py:527
+#: .\taiga\projects\milestones\serializers.py:56
+#: .\taiga\projects\serializers.py:70 .\taiga\projects\serializers.py:96
+#: .\taiga\projects\serializers.py:127 .\taiga\projects\serializers.py:170
+msgid "Name duplicated for the project"
+msgstr "项目的名字重复"
+
+#: .\taiga\export_import\tasks.py:53 .\taiga\export_import\tasks.py:54
+msgid "Error generating project dump"
+msgstr "生成项目备份出错"
+
+#: .\taiga\export_import\tasks.py:85 .\taiga\export_import\tasks.py:86
+msgid "Error loading project dump"
+msgstr "加载项目备份出错"
+
+#: .\taiga\external_apps\api.py:40 .\taiga\external_apps\api.py:66
+#: .\taiga\external_apps\api.py:73
+msgid "Authentication required"
+msgstr "必需认证"
+
+#: .\taiga\external_apps\models.py:33
+#: .\taiga\projects\custom_attributes\models.py:34
+#: .\taiga\projects\milestones\models.py:36 .\taiga\projects\models.py:134
+#: .\taiga\projects\models.py:351 .\taiga\projects\models.py:390
+#: .\taiga\projects\models.py:415 .\taiga\projects\models.py:452
+#: .\taiga\projects\models.py:475 .\taiga\projects\models.py:498
+#: .\taiga\projects\models.py:533 .\taiga\projects\models.py:556
+#: .\taiga\users\models.py:262 .\taiga\webhooks\models.py:27
+msgid "name"
+msgstr "名字"
+
+#: .\taiga\external_apps\models.py:35
+msgid "Icon url"
+msgstr ""
+
+#: .\taiga\external_apps\models.py:36
+msgid "web"
+msgstr "网站"
+
+#: .\taiga\external_apps\models.py:37
+#: .\taiga\projects\attachments\models.py:74
+#: .\taiga\projects\custom_attributes\models.py:35
+#: .\taiga\projects\history\templatetags\functions.py:23
+#: .\taiga\projects\issues\models.py:61 .\taiga\projects\models.py:138
+#: .\taiga\projects\models.py:560 .\taiga\projects\tasks\models.py:60
+#: .\taiga\projects\userstories\models.py:91
+msgid "description"
+msgstr "描述"
+
+#: .\taiga\external_apps\models.py:39
+msgid "Next url"
+msgstr "下一个 url"
+
+#: .\taiga\external_apps\models.py:41
+msgid "secret key for ciphering the application tokens"
+msgstr "密钥用于加密应用程序的口令"
+
+#: .\taiga\external_apps\models.py:55 .\taiga\projects\likes\models.py:50
+#: .\taiga\projects\notifications\models.py:84
+#: .\taiga\projects\votes\models.py:50
+msgid "user"
+msgstr "用户"
+
+#: .\taiga\external_apps\models.py:59
+msgid "application"
+msgstr "应用程序"
+
+#: .\taiga\feedback\models.py:23 .\taiga\users\models.py:116
+msgid "full name"
+msgstr "全名"
+
+#: .\taiga\feedback\models.py:25 .\taiga\users\models.py:111
+msgid "email address"
+msgstr "邮箱地址"
+
+#: .\taiga\feedback\models.py:27
+msgid "comment"
+msgstr "评论"
+
+#: .\taiga\feedback\models.py:29 .\taiga\projects\attachments\models.py:61
+#: .\taiga\projects\custom_attributes\models.py:44
+#: .\taiga\projects\issues\models.py:53 .\taiga\projects\likes\models.py:52
+#: .\taiga\projects\milestones\models.py:47 .\taiga\projects\models.py:140
+#: .\taiga\projects\models.py:562 .\taiga\projects\notifications\models.py:86
+#: .\taiga\projects\tasks\models.py:46
+#: .\taiga\projects\userstories\models.py:83
+#: .\taiga\projects\votes\models.py:52 .\taiga\projects\wiki\models.py:39
+#: .\taiga\userstorage\models.py:27
+msgid "created date"
+msgstr "创建日期"
+
+#: .\taiga\hooks\api.py:52
+msgid "The payload is not a valid json"
+msgstr "载荷是一个不正确的json"
+
+#: .\taiga\hooks\api.py:61 .\taiga\projects\issues\api.py:141
+#: .\taiga\projects\tasks\api.py:84 .\taiga\projects\userstories\api.py:109
+msgid "The project doesn't exist"
+msgstr "项目不存在"
+
+#: .\taiga\hooks\api.py:64
+msgid "Bad signature"
+msgstr "坏的签名"
+
+#: .\taiga\hooks\bitbucket\event_hooks.py:84
+#: .\taiga\hooks\github\event_hooks.py:75
+#: .\taiga\hooks\gitlab\event_hooks.py:73
+msgid "The referenced element doesn't exist"
+msgstr "引用元素不存在"
+
+#: .\taiga\hooks\bitbucket\event_hooks.py:91
+#: .\taiga\hooks\github\event_hooks.py:82
+#: .\taiga\hooks\gitlab\event_hooks.py:80
+msgid "The status doesn't exist"
+msgstr "状态不存在"
+
+#: .\taiga\hooks\bitbucket\event_hooks.py:97
+msgid "Status changed from BitBucket commit"
+msgstr "状态改变来自BitBucket提交"
+
+#: .\taiga\hooks\bitbucket\event_hooks.py:126
+#: .\taiga\hooks\github\event_hooks.py:141
+#: .\taiga\hooks\gitlab\event_hooks.py:113
+msgid "Invalid issue information"
+msgstr "无效的问题信息"
+
+#: .\taiga\hooks\bitbucket\event_hooks.py:142
+msgid ""
+"Issue created by [@{bitbucket_user_name}]({bitbucket_user_url} \"See @"
+"{bitbucket_user_name}'s BitBucket profile\") from BitBucket.\n"
+"Origin BitBucket issue: [bb#{number} - {subject}]({bitbucket_url} \"Go to "
+"'bb#{number} - {subject}'\"):\n"
+"\n"
+"{description}"
+msgstr ""
+"问题创建人 [@{bitbucket_user_name}]({bitbucket_user_url} \"请看 @"
+"{bitbucket_user_name}的 BitBucket 个人信息\") 来自 BitBucket.\n"
+"初始的 BitBucket 问题: [bb#{number} - {subject}]({bitbucket_url} \"Go to "
+"'bb#{number} - {subject}'\"):\n"
+"\n"
+"{description}"
+
+#: .\taiga\hooks\bitbucket\event_hooks.py:153
+msgid "Issue created from BitBucket."
+msgstr "问题创建来自BitBucket"
+
+#: .\taiga\hooks\bitbucket\event_hooks.py:177
+#: .\taiga\hooks\github\event_hooks.py:177
+#: .\taiga\hooks\github\event_hooks.py:192
+#: .\taiga\hooks\gitlab\event_hooks.py:152
+msgid "Invalid issue comment information"
+msgstr "无效的问题评论信息"
+
+#: .\taiga\hooks\bitbucket\event_hooks.py:185
+msgid ""
+"Comment by [@{bitbucket_user_name}]({bitbucket_user_url} \"See @"
+"{bitbucket_user_name}'s BitBucket profile\") from BitBucket.\n"
+"Origin BitBucket issue: [bb#{number} - {subject}]({bitbucket_url} \"Go to "
+"'bb#{number} - {subject}'\")\n"
+"\n"
+"{message}"
+msgstr ""
+"评论人 [@{bitbucket_user_name}]({bitbucket_user_url} \"请看 @"
+"{bitbucket_user_name}的 BitBucket 个人信息\") 来自 BitBucket.\n"
+"初始的 BitBucket 问题: [bb#{number} - {subject}]({bitbucket_url} \"Go to "
+"'bb#{number} - {subject}'\")\n"
+"\n"
+"{message}"
+
+#: .\taiga\hooks\bitbucket\event_hooks.py:196
+msgid ""
+"Comment From BitBucket:\n"
+"\n"
+"{message}"
+msgstr ""
+"来自 BitBucket 的评论:\n"
+"\n"
+"{message}"
+
+#: .\taiga\hooks\github\event_hooks.py:96
+msgid ""
+"Status changed by [@{github_user_name}]({github_user_url} \"See @"
+"{github_user_name}'s GitHub profile\") from GitHub commit [{commit_id}]"
+"({commit_url} \"See commit '{commit_id} - {commit_message}'\")."
+msgstr ""
+"状态修改人 [@{github_user_name}]({github_user_url} \"请看 @"
+"{github_user_name}'s GitHub profile\") 来自 GitHub 提交 [{commit_id}]"
+"({commit_url} \"请看提交 '{commit_id} - {commit_message}'\")."
+
+#: .\taiga\hooks\github\event_hooks.py:107
+msgid "Status changed from GitHub commit."
+msgstr "状态改变来自GitHub提交"
+
+#: .\taiga\hooks\github\event_hooks.py:157
+msgid ""
+"Issue created by [@{github_user_name}]({github_user_url} \"See @"
+"{github_user_name}'s GitHub profile\") from GitHub.\n"
+"Origin GitHub issue: [gh#{number} - {subject}]({github_url} \"Go to 'gh#"
+"{number} - {subject}'\"):\n"
+"\n"
+"{description}"
+msgstr ""
+"问题创建者 [@{github_user_name}]({github_user_url} \"请看 @"
+"{github_user_name}的 GitHub 个人信息\") 来自 GitHub.\n"
+"初始的 GitHub 问题: [gh#{number} - {subject}]({github_url} \"Go to 'gh#"
+"{number} - {subject}'\"):\n"
+"\n"
+"{description}"
+
+#: .\taiga\hooks\github\event_hooks.py:168
+msgid "Issue created from GitHub."
+msgstr "来自GitHub创建的问题"
+
+#: .\taiga\hooks\github\event_hooks.py:200
+msgid ""
+"Comment by [@{github_user_name}]({github_user_url} \"查看 @"
+"{github_user_name}'s GitHub profile\") 来自 GitHub.\n"
+"初始的 GitHub 问题: [gh#{number} - {subject}]({github_url} \"Go to 'gh#"
+"{number} - {subject}'\")\n"
+"\n"
+"{message}"
+msgstr ""
+"评论人 [@{github_user_name}]({github_user_url} \"See @"
+"{github_user_name} 的 GitHub 个人信息\") from GitHub.\n"
+"Origin GitHub issue: [gh#{number} - {subject}]({github_url} \"Go to 'gh#"
+"{number} - {subject}'\")\n"
+"\n"
+"{message}"
+
+#: .\taiga\hooks\github\event_hooks.py:211
+msgid ""
+"Comment From GitHub:\n"
+"\n"
+"{message}"
+msgstr ""
+"来自GitHub的评论:\n"
+"\n"
+"{message}"
+
+#: .\taiga\hooks\gitlab\event_hooks.py:86
+msgid "Status changed from GitLab commit"
+msgstr "由GitLab提交状态发生改变"
+
+#: .\taiga\hooks\gitlab\event_hooks.py:128
+msgid "Created from GitLab"
+msgstr "由GitLab创建"
+
+#: .\taiga\hooks\gitlab\event_hooks.py:160
+msgid ""
+"Comment by [@{gitlab_user_name}]({gitlab_user_url} \"See @"
+"{gitlab_user_name}'s GitLab profile\") from GitLab.\n"
+"Origin GitLab issue: [gl#{number} - {subject}]({gitlab_url} \"Go to 'gl#"
+"{number} - {subject}'\")\n"
+"\n"
+"{message}"
+msgstr ""
+"评论人 [@{gitlab_user_name}]({gitlab_user_url} \"查看 @"
+"{gitlab_user_name} 的 GitLab 个人信息\") 来自 GitLab.\n"
+"初始的 GitLab 问题: [gl#{number} - {subject}]({gitlab_url} \"Go to 'gl#"
+"{number} - {subject}'\")\n"
+"\n"
+"{message}"
+
+#: .\taiga\hooks\gitlab\event_hooks.py:171
+msgid ""
+"Comment From GitLab:\n"
+"\n"
+"{message}"
+msgstr ""
+"来自GitLab的评论:\n"
+"\n"
+"{message}"
+
+#: .\taiga\permissions\permissions.py:21 .\taiga\permissions\permissions.py:31
+#: .\taiga\permissions\permissions.py:51
+msgid "View project"
+msgstr "查看项目"
+
+#: .\taiga\permissions\permissions.py:22 .\taiga\permissions\permissions.py:32
+#: .\taiga\permissions\permissions.py:53
+msgid "View milestones"
+msgstr "查看里程碑"
+
+#: .\taiga\permissions\permissions.py:23 .\taiga\permissions\permissions.py:33
+msgid "View user stories"
+msgstr "查看用户故事"
+
+#: .\taiga\permissions\permissions.py:24 .\taiga\permissions\permissions.py:35
+#: .\taiga\permissions\permissions.py:63
+msgid "View tasks"
+msgstr "查看任务"
+
+#: .\taiga\permissions\permissions.py:25 .\taiga\permissions\permissions.py:34
+#: .\taiga\permissions\permissions.py:68
+msgid "View issues"
+msgstr "查看问题"
+
+#: .\taiga\permissions\permissions.py:26 .\taiga\permissions\permissions.py:36
+#: .\taiga\permissions\permissions.py:73
+msgid "View wiki pages"
+msgstr "查看wiki页面"
+
+#: .\taiga\permissions\permissions.py:27 .\taiga\permissions\permissions.py:37
+#: .\taiga\permissions\permissions.py:78
+msgid "View wiki links"
+msgstr "查看wiki链接"
+
+#: .\taiga\permissions\permissions.py:38
+msgid "Request membership"
+msgstr "请求成员资格"
+
+#: .\taiga\permissions\permissions.py:39
+msgid "Add user story to project"
+msgstr "像项目中添加用户故事"
+
+#: .\taiga\permissions\permissions.py:40
+msgid "Add comments to user stories"
+msgstr "向用户故事中添加注释"
+
+#: .\taiga\permissions\permissions.py:41
+msgid "Add comments to tasks"
+msgstr "像任务中添加注释"
+
+#: .\taiga\permissions\permissions.py:42
+msgid "Add issues"
+msgstr "增加问题"
+
+#: .\taiga\permissions\permissions.py:43
+msgid "Add comments to issues"
+msgstr "向问题中添加注释"
+
+#: .\taiga\permissions\permissions.py:44 .\taiga\permissions\permissions.py:74
+msgid "Add wiki page"
+msgstr "增加wiki页面"
+
+#: .\taiga\permissions\permissions.py:45 .\taiga\permissions\permissions.py:75
+msgid "Modify wiki page"
+msgstr "修改wiki页面"
+
+#: .\taiga\permissions\permissions.py:46 .\taiga\permissions\permissions.py:79
+msgid "Add wiki link"
+msgstr "增加wiki链接"
+
+#: .\taiga\permissions\permissions.py:47 .\taiga\permissions\permissions.py:80
+msgid "Modify wiki link"
+msgstr "修改wiki链接"
+
+#: .\taiga\permissions\permissions.py:54
+msgid "Add milestone"
+msgstr "增加里程碑"
+
+#: .\taiga\permissions\permissions.py:55
+msgid "Modify milestone"
+msgstr "修改里程碑"
+
+#: .\taiga\permissions\permissions.py:56
+msgid "Delete milestone"
+msgstr "删除里程碑"
+
+#: .\taiga\permissions\permissions.py:58
+msgid "View user story"
+msgstr "查看用户故事"
+
+#: .\taiga\permissions\permissions.py:59
+msgid "Add user story"
+msgstr "增加用户故事"
+
+#: .\taiga\permissions\permissions.py:60
+msgid "Modify user story"
+msgstr "修改用户故事"
+
+#: .\taiga\permissions\permissions.py:61
+msgid "Delete user story"
+msgstr "删除用户故事"
+
+#: .\taiga\permissions\permissions.py:64
+msgid "Add task"
+msgstr "增加任务"
+
+#: .\taiga\permissions\permissions.py:65
+msgid "Modify task"
+msgstr "修改任务"
+
+#: .\taiga\permissions\permissions.py:66
+msgid "Delete task"
+msgstr "删除任务"
+
+#: .\taiga\permissions\permissions.py:69
+msgid "Add issue"
+msgstr "增加问题"
+
+#: .\taiga\permissions\permissions.py:70
+msgid "Modify issue"
+msgstr "修改问题"
+
+#: .\taiga\permissions\permissions.py:71
+msgid "Delete issue"
+msgstr "删除问题"
+
+#: .\taiga\permissions\permissions.py:76
+msgid "Delete wiki page"
+msgstr "删除wiki页面"
+
+#: .\taiga\permissions\permissions.py:81
+msgid "Delete wiki link"
+msgstr "删除wiki链接"
+
+#: .\taiga\permissions\permissions.py:85
+msgid "Modify project"
+msgstr "修改项目"
+
+#: .\taiga\permissions\permissions.py:86
+msgid "Add member"
+msgstr "增加成员"
+
+#: .\taiga\permissions\permissions.py:87
+msgid "Remove member"
+msgstr "移除成员"
+
+#: .\taiga\permissions\permissions.py:88
+msgid "Delete project"
+msgstr "删除项目"
+
+#: .\taiga\permissions\permissions.py:89
+msgid "Admin project values"
+msgstr "管理项目值"
+
+#: .\taiga\permissions\permissions.py:90
+msgid "Admin roles"
+msgstr "管理员角色"
+
+#: .\taiga\projects\api.py:202
+msgid "Not valid template name"
+msgstr "不正确的模版名字"
+
+#: .\taiga\projects\api.py:205
+msgid "Not valid template description"
+msgstr "不正确的模版描述"
+
+#: .\taiga\projects\api.py:458 .\taiga\projects\serializers.py:264
+msgid "At least one of the user must be an active admin"
+msgstr "至少有一个用户必需是激活的管理员"
+
+#: .\taiga\projects\api.py:488
+msgid "You don't have permisions to see that."
+msgstr "你没有权限查看"
+
+#: .\taiga\projects\attachments\api.py:47
+msgid "Partial updates are not supported"
+msgstr "部分更新不支持"
+
+#: .\taiga\projects\attachments\api.py:62
+msgid "Project ID not matches between object and project"
+msgstr "项目ID没有在对象和项目之间匹配"
+
+#: .\taiga\projects\attachments\models.py:52
+#: .\taiga\projects\issues\models.py:38
+#: .\taiga\projects\milestones\models.py:41 .\taiga\projects\models.py:145
+#: .\taiga\projects\notifications\models.py:59
+#: .\taiga\projects\tasks\models.py:37
+#: .\taiga\projects\userstories\models.py:65
+#: .\taiga\projects\wiki\models.py:35 .\taiga\userstorage\models.py:25
+msgid "owner"
+msgstr "所有者"
+
+#: .\taiga\projects\attachments\models.py:54
+#: .\taiga\projects\custom_attributes\models.py:41
+#: .\taiga\projects\issues\models.py:51
+#: .\taiga\projects\milestones\models.py:43 .\taiga\projects\models.py:339
+#: .\taiga\projects\models.py:365 .\taiga\projects\models.py:396
+#: .\taiga\projects\models.py:425 .\taiga\projects\models.py:458
+#: .\taiga\projects\models.py:481 .\taiga\projects\models.py:508
+#: .\taiga\projects\models.py:539 .\taiga\projects\notifications\models.py:71
+#: .\taiga\projects\notifications\models.py:88
+#: .\taiga\projects\tasks\models.py:41
+#: .\taiga\projects\userstories\models.py:63
+#: .\taiga\projects\wiki\models.py:29 .\taiga\projects\wiki\models.py:67
+#: .\taiga\users\models.py:275
+msgid "project"
+msgstr "项目"
+
+#: .\taiga\projects\attachments\models.py:56
+msgid "content type"
+msgstr "内容类型"
+
+#: .\taiga\projects\attachments\models.py:58
+msgid "object id"
+msgstr "对象id"
+
+#: .\taiga\projects\attachments\models.py:64
+#: .\taiga\projects\custom_attributes\models.py:46
+#: .\taiga\projects\issues\models.py:56
+#: .\taiga\projects\milestones\models.py:50 .\taiga\projects\models.py:143
+#: .\taiga\projects\models.py:565 .\taiga\projects\tasks\models.py:49
+#: .\taiga\projects\userstories\models.py:86
+#: .\taiga\projects\wiki\models.py:42 .\taiga\userstorage\models.py:29
+msgid "modified date"
+msgstr "修改日期"
+
+#: .\taiga\projects\attachments\models.py:69
+msgid "attached file"
+msgstr "附件文件"
+
+#: .\taiga\projects\attachments\models.py:71
+msgid "sha1"
+msgstr ""
+
+#: .\taiga\projects\attachments\models.py:73
+msgid "is deprecated"
+msgstr "以遗弃"
+
+#: .\taiga\projects\attachments\models.py:75
+#: .\taiga\projects\custom_attributes\models.py:39
+#: .\taiga\projects\milestones\models.py:56 .\taiga\projects\models.py:355
+#: .\taiga\projects\models.py:392 .\taiga\projects\models.py:419
+#: .\taiga\projects\models.py:454 .\taiga\projects\models.py:477
+#: .\taiga\projects\models.py:502 .\taiga\projects\models.py:535
+#: .\taiga\projects\wiki\models.py:72 .\taiga\users\models.py:270
+msgid "order"
+msgstr "命令"
+
+#: .\taiga\projects\choices.py:21
+msgid "AppearIn"
+msgstr "出现"
+
+#: .\taiga\projects\choices.py:22
+msgid "Jitsi"
+msgstr ""
+
+#: .\taiga\projects\choices.py:23
+msgid "Custom"
+msgstr "自定义"
+
+#: .\taiga\projects\choices.py:24
+msgid "Talky"
+msgstr "对话"
+
+#: .\taiga\projects\custom_attributes\choices.py:25
+msgid "Text"
+msgstr "文本"
+
+#: .\taiga\projects\custom_attributes\choices.py:26
+msgid "Multi-Line Text"
+msgstr "多文本"
+
+#: .\taiga\projects\custom_attributes\choices.py:27
+msgid "Date"
+msgstr "日期"
+
+#: .\taiga\projects\custom_attributes\models.py:38
+#: .\taiga\projects\issues\models.py:46
+msgid "type"
+msgstr "类型"
+
+#: .\taiga\projects\custom_attributes\models.py:87
+msgid "values"
+msgstr "数值"
+
+#: .\taiga\projects\custom_attributes\models.py:97
+#: .\taiga\projects\tasks\models.py:33
+#: .\taiga\projects\userstories\models.py:35
+msgid "user story"
+msgstr "用户故事"
+
+#: .\taiga\projects\custom_attributes\models.py:112
+msgid "task"
+msgstr "任务"
+
+#: .\taiga\projects\custom_attributes\models.py:127
+msgid "issue"
+msgstr "问题"
+
+#: .\taiga\projects\custom_attributes\serializers.py:57
+msgid "Already exists one with the same name."
+msgstr "已经存在一个相同的名字"
+
+#: .\taiga\projects\history\api.py:70
+msgid "Comment already deleted"
+msgstr "评论已经删除"
+
+#: .\taiga\projects\history\api.py:89
+msgid "Comment not deleted"
+msgstr "评论没有删除"
+
+#: .\taiga\projects\history\choices.py:27
+msgid "Change"
+msgstr "改变"
+
+#: .\taiga\projects\history\choices.py:28
+msgid "Create"
+msgstr "创建"
+
+#: .\taiga\projects\history\choices.py:29
+msgid "Delete"
+msgstr "删除"
+
+#: .\taiga\projects\history\templatetags\functions.py:24
+#: .\taiga\projects\wiki\models.py:33
+msgid "content"
+msgstr "内容"
+
+#: .\taiga\projects\history\templatetags\functions.py:25
+#: .\taiga\projects\mixins\blocked.py:31
+msgid "blocked note"
+msgstr "锁定日志"
+
+#: .\taiga\projects\history\templatetags\functions.py:26
+msgid "sprint"
+msgstr ""
+
+#: .\taiga\projects\issues\api.py:162
+msgid "You don't have permissions to set this sprint to this issue."
+msgstr "你没有权限给这个问题设置sprint"
+
+#: .\taiga\projects\issues\api.py:166
+msgid "You don't have permissions to set this status to this issue."
+msgstr "你没有权限给这个问题设置状态"
+
+#: .\taiga\projects\issues\api.py:170
+msgid "You don't have permissions to set this severity to this issue."
+msgstr "你没有权限给这个问题设置重要等级"
+
+#: .\taiga\projects\issues\api.py:174
+msgid "You don't have permissions to set this priority to this issue."
+msgstr "你们有权限给这个问题设置优先级"
+
+#: .\taiga\projects\issues\api.py:178
+msgid "You don't have permissions to set this type to this issue."
+msgstr "你没有权限给这个问题设置类型"
+
+#: .\taiga\projects\issues\models.py:36 .\taiga\projects\tasks\models.py:35
+#: .\taiga\projects\userstories\models.py:58
+msgid "ref"
+msgstr ""
+
+#: .\taiga\projects\issues\models.py:40 .\taiga\projects\tasks\models.py:39
+#: .\taiga\projects\userstories\models.py:68
+msgid "status"
+msgstr "状态"
+
+#: .\taiga\projects\issues\models.py:42
+msgid "severity"
+msgstr "重要等级"
+
+#: .\taiga\projects\issues\models.py:44
+msgid "priority"
+msgstr "优先级"
+
+#: .\taiga\projects\issues\models.py:49 .\taiga\projects\tasks\models.py:44
+#: .\taiga\projects\userstories\models.py:61
+msgid "milestone"
+msgstr "里程碑"
+
+#: .\taiga\projects\issues\models.py:58 .\taiga\projects\tasks\models.py:51
+msgid "finished date"
+msgstr "完成日期"
+
+#: .\taiga\projects\issues\models.py:60 .\taiga\projects\tasks\models.py:53
+#: .\taiga\projects\userstories\models.py:90
+msgid "subject"
+msgstr "标题"
+
+#: .\taiga\projects\issues\models.py:64 .\taiga\projects\tasks\models.py:63
+#: .\taiga\projects\userstories\models.py:94
+msgid "assigned to"
+msgstr "赋值于"
+
+#: .\taiga\projects\issues\models.py:66 .\taiga\projects\tasks\models.py:67
+#: .\taiga\projects\userstories\models.py:104
+msgid "external reference"
+msgstr "外部引用"
+
+#: .\taiga\projects\likes\models.py:28 .\taiga\projects\votes\models.py:28
+msgid "count"
+msgstr "计算"
+
+#: .\taiga\projects\likes\models.py:31 .\taiga\projects\likes\models.py:32
+#: .\taiga\projects\likes\models.py:56
+msgid "Likes"
+msgstr "喜欢"
+
+#: .\taiga\projects\likes\models.py:55
+msgid "Like"
+msgstr "喜欢"
+
+#: .\taiga\projects\milestones\models.py:39 .\taiga\projects\models.py:136
+#: .\taiga\projects\models.py:353 .\taiga\projects\models.py:417
+#: .\taiga\projects\models.py:500 .\taiga\projects\models.py:558
+#: .\taiga\projects\wiki\models.py:31 .\taiga\users\models.py:264
+msgid "slug"
+msgstr ""
+
+#: .\taiga\projects\milestones\models.py:44
+msgid "estimated start date"
+msgstr "估计开始日期"
+
+#: .\taiga\projects\milestones\models.py:45
+msgid "estimated finish date"
+msgstr "估计完成日期"
+
+#: .\taiga\projects\milestones\models.py:52 .\taiga\projects\models.py:357
+#: .\taiga\projects\models.py:421 .\taiga\projects\models.py:504
+msgid "is closed"
+msgstr "已关闭"
+
+#: .\taiga\projects\milestones\models.py:54
+msgid "disponibility"
+msgstr "不受约束"
+
+#: .\taiga\projects\milestones\models.py:79
+msgid "The estimated start must be previous to the estimated finish."
+msgstr "估计开始必需在估计结束之前"
+
+#: .\taiga\projects\milestones\validators.py:12
+msgid "There's no sprint with that id"
+msgstr "那个id没有sprint"
+
+#: .\taiga\projects\mixins\blocked.py:29
+msgid "is blocked"
+msgstr "已锁"
+
+#: .\taiga\projects\mixins\ordering.py:47
+msgid "'{param}' parameter is mandatory"
+msgstr "'{param}' 参数是强制性的"
+
+#: .\taiga\projects\mixins\ordering.py:51
+msgid "'project' parameter is mandatory"
+msgstr "项目的参数是强制性的"
+
+#: .\taiga\projects\models.py:66
+msgid "email"
+msgstr "邮箱"
+
+#: .\taiga\projects\models.py:68
+msgid "create at"
+msgstr "创建于"
+
+#: .\taiga\projects\models.py:70 .\taiga\users\models.py:133
+msgid "token"
+msgstr "口令"
+
+#: .\taiga\projects\models.py:76
+msgid "invitation extra text"
+msgstr "邀请额外的文字"
+
+#: .\taiga\projects\models.py:79
+msgid "user order"
+msgstr "用户命令"
+
+#: .\taiga\projects\models.py:89
+msgid "The user is already member of the project"
+msgstr "用户已经是这个项目的成员"
+
+#: .\taiga\projects\models.py:104
+msgid "default points"
+msgstr "默认要点"
+
+#: .\taiga\projects\models.py:108
+msgid "default US status"
+msgstr "默认US状态"
+
+#: .\taiga\projects\models.py:112
+msgid "default task status"
+msgstr "默认任务状态"
+
+#: .\taiga\projects\models.py:115
+msgid "default priority"
+msgstr "默认优先级"
+
+#: .\taiga\projects\models.py:118
+msgid "default severity"
+msgstr "默认的严重级别"
+
+#: .\taiga\projects\models.py:122
+msgid "default issue status"
+msgstr "默认的问题状态"
+
+#: .\taiga\projects\models.py:126
+msgid "default issue type"
+msgstr "默认的问题类型"
+
+#: .\taiga\projects\models.py:147
+msgid "members"
+msgstr "成员"
+
+#: .\taiga\projects\models.py:150
+msgid "total of milestones"
+msgstr "所有的里程碑"
+
+#: .\taiga\projects\models.py:151
+msgid "total story points"
+msgstr "所有故事要点"
+
+#: .\taiga\projects\models.py:154 .\taiga\projects\models.py:571
+msgid "active backlog panel"
+msgstr "激活未完成工作面板"
+
+#: .\taiga\projects\models.py:156 .\taiga\projects\models.py:573
+msgid "active kanban panel"
+msgstr "激活看板面板"
+
+#: .\taiga\projects\models.py:158 .\taiga\projects\models.py:575
+msgid "active wiki panel"
+msgstr "激活wiki面板"
+
+#: .\taiga\projects\models.py:160 .\taiga\projects\models.py:577
+msgid "active issues panel"
+msgstr "激活问题面板"
+
+#: .\taiga\projects\models.py:163 .\taiga\projects\models.py:580
+msgid "videoconference system"
+msgstr "视频会议系统"
+
+#: .\taiga\projects\models.py:165 .\taiga\projects\models.py:582
+msgid "videoconference extra data"
+msgstr "视频会议额外数据"
+
+#: .\taiga\projects\models.py:170
+msgid "creation template"
+msgstr "创建模版"
+
+#: .\taiga\projects\models.py:173
+msgid "anonymous permissions"
+msgstr "匿名权限"
+
+#: .\taiga\projects\models.py:177
+msgid "user permissions"
+msgstr "用户权限"
+
+#: .\taiga\projects\models.py:180
+msgid "is private"
+msgstr "私有"
+
+#: .\taiga\projects\models.py:191
+msgid "tags colors"
+msgstr "标签颜色"
+
+#: .\taiga\projects\models.py:340
+msgid "modules config"
+msgstr "模块配置"
+
+#: .\taiga\projects\models.py:359
+msgid "is archived"
+msgstr "存档"
+
+#: .\taiga\projects\models.py:361 .\taiga\projects\models.py:423
+#: .\taiga\projects\models.py:456 .\taiga\projects\models.py:479
+#: .\taiga\projects\models.py:506 .\taiga\projects\models.py:537
+#: .\taiga\users\models.py:118
+msgid "color"
+msgstr "颜色"
+
+#: .\taiga\projects\models.py:363
+msgid "work in progress limit"
+msgstr "进度限制工作"
+
+#: .\taiga\projects\models.py:394 .\taiga\userstorage\models.py:31
+msgid "value"
+msgstr "数值"
+
+#: .\taiga\projects\models.py:568
+msgid "default owner's role"
+msgstr "默认所有者的角色"
+
+#: .\taiga\projects\models.py:584
+msgid "default options"
+msgstr "默认选项"
+
+#: .\taiga\projects\models.py:585
+msgid "us statuses"
+msgstr "us状态"
+
+#: .\taiga\projects\models.py:586 .\taiga\projects\userstories\models.py:41
+#: .\taiga\projects\userstories\models.py:73
+msgid "points"
+msgstr "要点"
+
+#: .\taiga\projects\models.py:587
+msgid "task statuses"
+msgstr "任务状态"
+
+#: .\taiga\projects\models.py:588
+msgid "issue statuses"
+msgstr "问题状态"
+
+#: .\taiga\projects\models.py:589
+msgid "issue types"
+msgstr "问题类型"
+
+#: .\taiga\projects\models.py:590
+msgid "priorities"
+msgstr "优先级"
+
+#: .\taiga\projects\models.py:591
+msgid "severities"
+msgstr "严重程度"
+
+#: .\taiga\projects\models.py:592
+msgid "roles"
+msgstr "角色"
+
+#: .\taiga\projects\notifications\choices.py:28
+msgid "Involved"
+msgstr "参与"
+
+#: .\taiga\projects\notifications\choices.py:29
+msgid "All"
+msgstr "所有"
+
+#: .\taiga\projects\notifications\choices.py:30
+msgid "None"
+msgstr "没有"
+
+#: .\taiga\projects\notifications\models.py:61
+msgid "created date time"
+msgstr "创建日期时间"
+
+#: .\taiga\projects\notifications\models.py:63
+msgid "updated date time"
+msgstr "更新日期时间"
+
+#: .\taiga\projects\notifications\models.py:65
+msgid "history entries"
+msgstr "故事条目"
+
+#: .\taiga\projects\notifications\models.py:68
+msgid "notify users"
+msgstr "通知用户"
+
+#: .\taiga\projects\notifications\models.py:90
+#: .\taiga\projects\notifications\models.py:91
+msgid "Watched"
+msgstr "观看"
+
+#: .\taiga\projects\notifications\services.py:65
+#: .\taiga\projects\notifications\services.py:79
+msgid "Notify exists for specified user and project"
+msgstr "指定用户和项目的通知"
+
+#: .\taiga\projects\notifications\services.py:427
+msgid "Invalid value for notify level"
+msgstr "对于通知级别的无效值"
+
+#: .\taiga\projects\notifications\validators.py:46
+msgid "Watchers contains invalid users"
+msgstr "观看者包含无效用户"
+
+#: .\taiga\projects\occ\mixins.py:35
+msgid "The version must be an integer"
+msgstr "版本需为整数"
+
+#: .\taiga\projects\occ\mixins.py:58
+msgid "The version parameter is not valid"
+msgstr "版本参数无效"
+
+#: .\taiga\projects\occ\mixins.py:74
+msgid "The version doesn't match with the current one"
+msgstr "版本没有匹配当前这个"
+
+#: .\taiga\projects\occ\mixins.py:93
+msgid "version"
+msgstr "版本"
+
+#: .\taiga\projects\permissions.py:39
+msgid "You can't leave the project if there are no more owners"
+msgstr "如果没有更多的所有者，你无法脱离这个这个项目"
+
+#: .\taiga\projects\serializers.py:240
+msgid "Email address is already taken"
+msgstr "邮箱地址已被占用"
+
+#: .\taiga\projects\serializers.py:252
+msgid "Invalid role for the project"
+msgstr "对于该项目无效的角色"
+
+#: .\taiga\projects\serializers.py:397
+msgid "Default options"
+msgstr "默认选项"
+
+#: .\taiga\projects\serializers.py:398
+msgid "User story's statuses"
+msgstr "用户故事的状态"
+
+#: .\taiga\projects\serializers.py:399
+msgid "Points"
+msgstr "要点"
+
+#: .\taiga\projects\serializers.py:400
+msgid "Task's statuses"
+msgstr "任务的状态"
+
+#: .\taiga\projects\serializers.py:401
+msgid "Issue's statuses"
+msgstr "问题的状态"
+
+#: .\taiga\projects\serializers.py:402
+msgid "Issue's types"
+msgstr "问题类型"
+
+#: .\taiga\projects\serializers.py:403
+msgid "Priorities"
+msgstr "优先级"
+
+#: .\taiga\projects\serializers.py:404
+msgid "Severities"
+msgstr "严重程度"
+
+#: .\taiga\projects\serializers.py:405
+msgid "Roles"
+msgstr "角色"
+
+#: .\taiga\projects\services\stats.py:55 .\taiga\projects\services\stats.py:56
+msgid "Unassigned"
+msgstr "未分配的"
+
+#: .\taiga\projects\services\stats.py:197
+msgid "Future sprint"
+msgstr "未来sprint"
+
+#: .\taiga\projects\services\stats.py:215
+msgid "Project End"
+msgstr "项目结束"
+
+#: .\taiga\projects\tasks\api.py:111 .\taiga\projects\tasks\api.py:120
+msgid "You don't have permissions to set this sprint to this task."
+msgstr "你没有权限给这个任务设置sprint"
+
+#: .\taiga\projects\tasks\api.py:114
+msgid "You don't have permissions to set this user story to this task."
+msgstr "你没有权限给这个任务设置用户故事"
+
+#: .\taiga\projects\tasks\api.py:117
+msgid "You don't have permissions to set this status to this task."
+msgstr "你没有权限给这个任务设置状态"
+
+#: .\taiga\projects\tasks\models.py:56
+msgid "us order"
+msgstr "us命令"
+
+#: .\taiga\projects\tasks\models.py:58
+msgid "taskboard order"
+msgstr "任务板命令"
+
+#: .\taiga\projects\tasks\models.py:66
+msgid "is iocaine"
+msgstr "是iocaine"
+
+#: .\taiga\projects\tasks\validators.py:12
+msgid "There's no task with that id"
+msgstr "那个id没有任务"
+
+#. Translators: Name of scrum project template.
+#: .\taiga\projects\translations.py:28
+msgid "Scrum"
+msgstr ""
+
+#. Translators: Description of scrum project template.
+#: .\taiga\projects\translations.py:30
+msgid ""
+"The agile product backlog in Scrum is a prioritized features list, "
+"containing short descriptions of all functionality desired in the product. "
+"When applying Scrum, it's not necessary to start a project with a lengthy, "
+"upfront effort to document all requirements. The Scrum product backlog is "
+"then allowed to grow and change as more is learned about the product and its "
+"customers"
+msgstr ""
+"Scrum中敏捷产品未完成工作是一个优先功能列表，包括简单地描述所有期望的功能。"
+"使用Scrum时,项目没有必要在前期花很大力气去记录沉长的所有需求。Scrum产品未完成工作依据"
+"从客户得到的反馈来加以改变和调整"
+
+#. Translators: Name of kanban project template.
+#: .\taiga\projects\translations.py:33
+msgid "Kanban"
+msgstr "看板"
+
+#. Translators: Description of kanban project template.
+#: .\taiga\projects\translations.py:35
+msgid ""
+"Kanban is a method for managing knowledge work with an emphasis on just-in-"
+"time delivery while not overloading the team members. In this approach, the "
+"process, from definition of a task to its delivery to the customer, is "
+"displayed for participants to see and team members pull work from a queue."
+msgstr ""
+"看板是一种知识工作管理工具，强制及时传送而不让团队成员有过度的负担。这种方式下，从"
+"定义任务到其传送给客户的过程，以参与者可以看到且成员从次序排列上推动来呈现"
+
+#. Translators: User story point value (value = undefined)
+#: .\taiga\projects\translations.py:43
+msgid "?"
+msgstr ""
+
+#. Translators: User story point value (value = 0)
+#: .\taiga\projects\translations.py:45
+msgid "0"
+msgstr ""
+
+#. Translators: User story point value (value = 0.5)
+#: .\taiga\projects\translations.py:47
+msgid "1/2"
+msgstr ""
+
+#. Translators: User story point value (value = 1)
+#: .\taiga\projects\translations.py:49
+msgid "1"
+msgstr ""
+
+#. Translators: User story point value (value = 2)
+#: .\taiga\projects\translations.py:51
+msgid "2"
+msgstr ""
+
+#. Translators: User story point value (value = 3)
+#: .\taiga\projects\translations.py:53
+msgid "3"
+msgstr ""
+
+#. Translators: User story point value (value = 5)
+#: .\taiga\projects\translations.py:55
+msgid "5"
+msgstr ""
+
+#. Translators: User story point value (value = 8)
+#: .\taiga\projects\translations.py:57
+msgid "8"
+msgstr ""
+
+#. Translators: User story point value (value = 10)
+#: .\taiga\projects\translations.py:59
+msgid "10"
+msgstr ""
+
+#. Translators: User story point value (value = 13)
+#: .\taiga\projects\translations.py:61
+msgid "13"
+msgstr ""
+
+#. Translators: User story point value (value = 20)
+#: .\taiga\projects\translations.py:63
+msgid "20"
+msgstr ""
+
+#. Translators: User story point value (value = 40)
+#: .\taiga\projects\translations.py:65
+msgid "40"
+msgstr ""
+
+#. Translators: User story status
+#. Translators: Task status
+#. Translators: Issue status
+#: .\taiga\projects\translations.py:73 .\taiga\projects\translations.py:96
+#: .\taiga\projects\translations.py:112
+msgid "New"
+msgstr "新建"
+
+#. Translators: User story status
+#: .\taiga\projects\translations.py:76
+msgid "Ready"
+msgstr "准备"
+
+#. Translators: User story status
+#. Translators: Task status
+#. Translators: Issue status
+#: .\taiga\projects\translations.py:79 .\taiga\projects\translations.py:98
+#: .\taiga\projects\translations.py:114
+msgid "In progress"
+msgstr "执行中"
+
+#. Translators: User story status
+#. Translators: Task status
+#. Translators: Issue status
+#: .\taiga\projects\translations.py:82 .\taiga\projects\translations.py:100
+#: .\taiga\projects\translations.py:116
+msgid "Ready for test"
+msgstr "准备测试"
+
+#. Translators: User story status
+#: .\taiga\projects\translations.py:85
+msgid "Done"
+msgstr "完成"
+
+#. Translators: User story status
+#: .\taiga\projects\translations.py:88
+msgid "Archived"
+msgstr "获取"
+
+#. Translators: Task status
+#. Translators: Issue status
+#: .\taiga\projects\translations.py:102 .\taiga\projects\translations.py:118
+msgid "Closed"
+msgstr "关闭"
+
+#. Translators: Task status
+#. Translators: Issue status
+#: .\taiga\projects\translations.py:104 .\taiga\projects\translations.py:120
+msgid "Needs Info"
+msgstr "需要信息"
+
+#. Translators: Issue status
+#: .\taiga\projects\translations.py:122
+msgid "Postponed"
+msgstr "推迟"
+
+#. Translators: Issue status
+#: .\taiga\projects\translations.py:124
+msgid "Rejected"
+msgstr "拒绝"
+
+#. Translators: Issue type
+#: .\taiga\projects\translations.py:132
+msgid "Bug"
+msgstr "缺陷"
+
+#. Translators: Issue type
+#: .\taiga\projects\translations.py:134
+msgid "Question"
+msgstr "问题"
+
+#. Translators: Issue type
+#: .\taiga\projects\translations.py:136
+msgid "Enhancement"
+msgstr "增强"
+
+#. Translators: Issue priority
+#: .\taiga\projects\translations.py:144
+msgid "Low"
+msgstr "低"
+
+#. Translators: Issue priority
+#. Translators: Issue severity
+#: .\taiga\projects\translations.py:146 .\taiga\projects\translations.py:159
+msgid "Normal"
+msgstr "正常"
+
+#. Translators: Issue priority
+#: .\taiga\projects\translations.py:148
+msgid "High"
+msgstr "高"
+
+#. Translators: Issue severity
+#: .\taiga\projects\translations.py:155
+msgid "Wishlist"
+msgstr "愿望清单"
+
+#. Translators: Issue severity
+#: .\taiga\projects\translations.py:157
+msgid "Minor"
+msgstr "次要的"
+
+#. Translators: Issue severity
+#: .\taiga\projects\translations.py:161
+msgid "Important"
+msgstr "重要的"
+
+#. Translators: Issue severity
+#: .\taiga\projects\translations.py:163
+msgid "Critical"
+msgstr "严重的"
+
+#. Translators: User role
+#: .\taiga\projects\translations.py:170
+msgid "UX"
+msgstr ""
+
+#. Translators: User role
+#: .\taiga\projects\translations.py:172
+msgid "Design"
+msgstr "设计"
+
+#. Translators: User role
+#: .\taiga\projects\translations.py:174
+msgid "Front"
+msgstr "前进"
+
+#. Translators: User role
+#: .\taiga\projects\translations.py:176
+msgid "Back"
+msgstr "后退"
+
+#. Translators: User role
+#: .\taiga\projects\translations.py:178
+msgid "Product Owner"
+msgstr "产品所有者"
+
+#. Translators: User role
+#: .\taiga\projects\translations.py:180
+msgid "Stakeholder"
+msgstr "利益相关者"
+
+#: .\taiga\projects\userstories\api.py:161
+msgid "You don't have permissions to set this sprint to this user story."
+msgstr "你没有权限给这个用户故事设置sprint"
+
+#: .\taiga\projects\userstories\api.py:165
+msgid "You don't have permissions to set this status to this user story."
+msgstr "你没有权限给这个用户故事设置状态"
+
+#: .\taiga\projects\userstories\api.py:259
+msgid "Generating the user story #{ref} - {subject}"
+msgstr "生成用户故事#{ref} - {subject}"
+
+#: .\taiga\projects\userstories\models.py:38
+msgid "role"
+msgstr "角色"
+
+#: .\taiga\projects\userstories\models.py:76
+msgid "backlog order"
+msgstr "未提交命令"
+
+#: .\taiga\projects\userstories\models.py:78
+#: .\taiga\projects\userstories\models.py:80
+msgid "sprint order"
+msgstr "sprint 命令"
+
+#: .\taiga\projects\userstories\models.py:88
+msgid "finish date"
+msgstr "截至日期"
+
+#: .\taiga\projects\userstories\models.py:96
+msgid "is client requirement"
+msgstr "客户端需求"
+
+#: .\taiga\projects\userstories\models.py:98
+msgid "is team requirement"
+msgstr "团队需求"
+
+#: .\taiga\projects\userstories\models.py:103
+msgid "generated from issue"
+msgstr "由问题生成"
+
+#: .\taiga\projects\userstories\validators.py:28
+msgid "There's no user story with that id"
+msgstr "那个id没有用户故事"
+
+#: .\taiga\projects\validators.py:28
+msgid "There's no project with that id"
+msgstr "那个id没有项目"
+
+#: .\taiga\projects\validators.py:37
+msgid "There's no user story status with that id"
+msgstr "那个id没有用户故事状态"
+
+#: .\taiga\projects\validators.py:46
+msgid "There's no task status with that id"
+msgstr "那个id没有任务状态"
+
+#: .\taiga\projects\votes\models.py:31 .\taiga\projects\votes\models.py:32
+#: .\taiga\projects\votes\models.py:56
+msgid "Votes"
+msgstr "投票"
+
+#: .\taiga\projects\votes\models.py:55
+msgid "Vote"
+msgstr "投票"
+
+#: .\taiga\projects\wiki\api.py:66
+msgid "'content' parameter is mandatory"
+msgstr "'content' 参数是强制性的"
+
+#: .\taiga\projects\wiki\api.py:69
+msgid "'project_id' parameter is mandatory"
+msgstr "'project_id' 参数是强制性的"
+
+#: .\taiga\projects\wiki\models.py:37
+msgid "last modifier"
+msgstr "最后修改者"
+
+#: .\taiga\projects\wiki\models.py:70
+msgid "href"
+msgstr ""
+
+#: .\taiga\timeline\signals.py:67
+msgid "Check the history API for the exact diff"
+msgstr "检查历史API进行精确区分"
+
+#: .\taiga\users\admin.py:50
+msgid "Personal info"
+msgstr "个人信息"
+
+#: .\taiga\users\admin.py:51
+msgid "Extra info"
+msgstr "额外的信息"
+
+#: .\taiga\users\admin.py:52
+msgid "Permissions"
+msgstr "权限"
+
+#: .\taiga\users\admin.py:53
+msgid "Important dates"
+msgstr "重要的日期"
+
+#: .\taiga\users\api.py:111
+msgid "Duplicated email"
+msgstr "重复的邮箱"
+
+#: .\taiga\users\api.py:113
+msgid "Not valid email"
+msgstr "无效的邮箱"
+
+#: .\taiga\users\api.py:146
+msgid "Invalid username or email"
+msgstr "无效的用户或邮箱"
+
+#: .\taiga\users\api.py:155
+msgid "Mail sended successful!"
+msgstr "发送邮件成功"
+
+#: .\taiga\users\api.py:167 .\taiga\users\api.py:172
+msgid "Token is invalid"
+msgstr "口令无效"
+
+#: .\taiga\users\api.py:193
+msgid "Current password parameter needed"
+msgstr "需要当前的密码参数"
+
+#: .\taiga\users\api.py:196
+msgid "New password parameter needed"
+msgstr "需要新的密码参数"
+
+#: .\taiga\users\api.py:199
+msgid "Invalid password length at least 6 charaters needed"
+msgstr "密码长度无效，至少需要6个字符"
+
+#: .\taiga\users\api.py:202
+msgid "Invalid current password"
+msgstr "无效的当前密码"
+
+#: .\taiga\users\api.py:218
+msgid "Incomplete arguments"
+msgstr "不完整的参数"
+
+#: .\taiga\users\api.py:223
+msgid "Invalid image format"
+msgstr "无效的图片格式"
+
+#: .\taiga\users\api.py:250 .\taiga\users\api.py:256
+msgid ""
+"Invalid, are you sure the token is correct and you didn't use it before?"
+msgstr "无效的，你确定口令正确，先前没有用过它吗？"
+
+#: .\taiga\users\api.py:283 .\taiga\users\api.py:291 .\taiga\users\api.py:294
+msgid "Invalid, are you sure the token is correct?"
+msgstr "无效的，你确定这个口令正确吗？"
+
+#: .\taiga\users\models.py:74
+msgid "superuser status"
+msgstr "超级用户状态"
+
+#: .\taiga\users\models.py:75
+msgid ""
+"Designates that this user has all permissions without explicitly assigning "
+"them."
+msgstr "指定该用户包含所有权限而不明确分配它们"
+
+#: .\taiga\users\models.py:105
+msgid "username"
+msgstr "用户名"
+
+#: .\taiga\users\models.py:106
+msgid ""
+"Required. 30 characters or fewer. Letters, numbers and /./-/_ characters"
+msgstr "必填。最多30个字符（可包括数字，字母以及字符 ‘.’ 、‘-’ 、‘_’）"
+
+#: .\taiga\users\models.py:109
+msgid "Enter a valid username."
+msgstr "输入一个正确的用户名"
+
+#: .\taiga\users\models.py:112
+msgid "active"
+msgstr "激活"
+
+#: .\taiga\users\models.py:113
+msgid ""
+"Designates whether this user should be treated as active. Unselect this "
+"instead of deleting accounts."
+msgstr "指定是否应被视为活跃用户。 不选择这个意味着删除账户"
+
+#: .\taiga\users\models.py:119
+msgid "biography"
+msgstr "作者简介"
+
+#: .\taiga\users\models.py:122
+msgid "photo"
+msgstr "照片"
+
+#: .\taiga\users\models.py:123
+msgid "date joined"
+msgstr "加入日期"
+
+#: .\taiga\users\models.py:125
+msgid "default language"
+msgstr "默认语言"
+
+#: .\taiga\users\models.py:127
+msgid "default theme"
+msgstr "默认主题"
+
+#: .\taiga\users\models.py:129
+msgid "default timezone"
+msgstr "默认时区"
+
+#: .\taiga\users\models.py:131
+msgid "colorize tags"
+msgstr "彩色标签"
+
+#: .\taiga\users\models.py:136
+msgid "email token"
+msgstr "邮箱口令"
+
+#: .\taiga\users\models.py:138
+msgid "new email address"
+msgstr "新邮箱地址"
+
+#: .\taiga\users\models.py:267
+msgid "permissions"
+msgstr "权限"
+
+#: .\taiga\users\serializers.py:62
+msgid "invalid"
+msgstr "无效的"
+
+#: .\taiga\users\serializers.py:73
+msgid "Invalid username. Try with a different one."
+msgstr "无效的用户名。请用另外一个试试"
+
+#: .\taiga\users\services.py:51 .\taiga\users\services.py:69
+msgid "Username or password does not matches user."
+msgstr "用户名或密码没有找到用户"
+
+#: .\taiga\users\validators.py:29
+msgid "There's no role with that id"
+msgstr "那个id没有角色"
+
+#: .\taiga\userstorage\api.py:50
+msgid ""
+"Duplicate key value violates unique constraint. Key '{}' already exists."
+msgstr "重复键值对违法唯一性约束。键 '{}' 已经存在"
+
+#: .\taiga\userstorage\models.py:30
+msgid "key"
+msgstr "键"
+
+#: .\taiga\webhooks\models.py:28 .\taiga\webhooks\models.py:38
+msgid "URL"
+msgstr ""
+
+#: .\taiga\webhooks\models.py:29
+msgid "secret key"
+msgstr "密钥"
+
+#: .\taiga\webhooks\models.py:39
+msgid "status code"
+msgstr "状态码"
+
+#: .\taiga\webhooks\models.py:40
+msgid "request data"
+msgstr "请求数据"
+
+#: .\taiga\webhooks\models.py:41
+msgid "request headers"
+msgstr "请求头部"
+
+#: .\taiga\webhooks\models.py:42
+msgid "response data"
+msgstr "响应数据"
+
+#: .\taiga\webhooks\models.py:43
+msgid "response headers"
+msgstr "响应头部"
+
+#: .\taiga\webhooks\models.py:44
+msgid "duration"
+msgstr "间隔"
